@@ -1,7 +1,7 @@
 # CVM Fund Data Scraper and Visualizer
 
 ## Description
-This Python script scrapes financial data for investment funds from the official CVM (Comissão de Valores Mobiliários) website. It currently focuses on a single fund but is designed to be expanded for multi-fund analysis and comparison.
+This Python script scrapes financial data for investment funds from the official CVM (Comissão de Valores Mobiliários) website. It currently focuses on a single fund and saves as database file but is designed to be expanded for multi-fund analysis and comparison. 
 
 ## Features
 - Web scraping of fund data from the CVM portal
@@ -35,7 +35,7 @@ The script collects the following data points for each fund:
 - Next Date (Data_da_Proxima)
 
 ## Visualization
-Currently, the script generates a line plot of Quota values over time for a specific month.
+Currently, the script only creates a database file. The data visualization will be implemented in the next stages
 
 ## Future Plans
 - Implement user interface for fund selection
